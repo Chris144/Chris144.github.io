@@ -18,4 +18,7 @@ if("2" === 2)
     }
     else{
         console.log("nie prawda");
-        document.write("<br> prawda");    }
+        document.write("<br> prawda");   
+    }
+
+(8 > 4) ? console.log("prawda"): console.error("nie prawda");
