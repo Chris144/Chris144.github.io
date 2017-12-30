@@ -1,0 +1,341 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+
+}
+
+/* General styles -end*/
+
+/*Navigation -style*/
+
+nav#main-nav {
+    width: 100%;
+    top: 0;
+    right: 0;
+    text-align: right;
+    padding-right: 20px;
+    position: fixed;
+
+}
+
+/*Navigation -start*/
+
+nav#main-nav > ul > li {
+    display: inline-block;
+    padding: 20px 40px;
+
+}
+
+nav#main-nav > ul > li > a {
+    text-decoration: none;
+    margin: 0;
+    color: white;
+
+}
+
+nav#main-nav > ul > li > a:hover {
+    color: #291f1a;
+
+}
+
+/*Navigation -end*/
+
+/* Header -start*/
+
+#main-header {
+    background-image: url("../img/img/header-background.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    color: black;
+
+}
+
+#main-header .main-header-content {
+    text-align: center;
+    padding: 30vh;
+
+}
+
+#main-header .main-header-content > h1 {
+    font-family: "Robot", sans-serif;
+    font-weight: 300;
+
+}
+
+#main-header .main-header-content > h1 > span {
+    color: #1ac056;
+}
+
+
+/*Header -end*/
+
+/*about me - start*/
+
+#about {
+    text-align: center;
+    width: 100%;
+    background-color: #f9fcfe;
+    overflow: hidden;
+    padding: 0 80px 100px;
+
+}
+
+#about > figure {
+    width: 50%;
+    margin: 0;
+    float: left;
+}
+
+#about > figure > img {
+    max-width: 350px;
+
+}
+
+#about > article {
+    width: 50%;
+    text-align: left;
+    float: left;
+}
+
+#about > h2 > span {
+    color: #1ac056;
+}
+
+/* about me - end*/
+
+/* skills - start */
+
+#skills > figure {
+    display: flex;
+    left: 50%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+#skills > figure > img {
+    padding: 20px;
+
+}
+
+#skills > h2 {
+    text-align: center;
+}
+
+#skills > h2 > span {
+    color: #1ac056;
+}
+
+#skills > article > p {
+    text-align: center;
+}
+
+
+/* skills - end */
+
+/*moje portfolio-start*/
+
+#portfolio h2 {
+    text-align: center;
+}
+
+#portfolio h2 > span {
+    color: #1ac056;
+
+}
+
+#portfolio-item-1 {
+    background-image: url("../img/img/portfolio1.jpg");
+}
+
+#portfolio-item-2 {
+    background-image: url("../img/img/portfolio2.jpg");
+}
+
+#portfolio-item-3 {
+    background-image: url("../img/img/portfolio3.jpg");
+}
+
+.portfolio-item {
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    width: 33%;
+    position: relative;
+
+}
+
+.portfolio-items {
+    text-align: center;
+    font-size: 0;
+}
+
+.item-mask {
+    background-color: rgba(42, 61, 79, 0.8);
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    position: absolute;
+    font-size: initial;
+}
+
+.item-mask:hover {
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+    color: #1ac056;
+}
+
+.item-content {
+    border: 1px solid #fff;
+    margin: 10px;
+    height: 330px;
+    position: relative;
+}
+
+.item-content-inner {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    padding: 5px;
+    color: #fff;
+
+
+}
+
+item-content-inner > a {
+    color: #1ac056;
+}
+
+/*moje portfoli -end*/
+
+/* contact -start*/
+
+#contact {
+    background-color: #213b50;
+    color: #fff;
+    overflow: hidden;
+
+
+}
+
+#contact .contact-data {
+    width: 50%;
+    float: left;
+    margin-left: 40px;
+}
+
+#contact .contact-data > h2 {
+    text-align: left;
+    font-size: 30px;
+
+}
+
+#contact .contact-data > h2 > span {
+    color: #1ac056;
+
+}
+
+#contact .contact-data > address {
+    font-style: normal;
+    line-height: 25px;
+    margin: 72px 5px;
+}
+
+#contact .contact-data address span {
+    color: #1ac056;
+}
+
+#contact .contact-social-icons {
+    padding: 10px 10px;
+
+}
+#contact .contact-social-icons > a {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #fff;
+    text-decoration: none;
+    color: #fff;
+    margin: 5px;
+}
+
+
+#contact .contact-social-icons > a:hover {
+    border: 1px solid #213b50;
+    color: #213b50;
+    background-color: #fff;
+
+}
+
+#contact .contact-form {
+    margin-top: 100px;
+    position: relative;
+
+}
+
+#contact .contact-form > input {
+    width: 35%;
+    padding: 10px;
+    margin: 10px;
+    border: 0 solid #2b4a64;
+    background-color: #2b4a64;
+
+}
+
+#contact .contact-form > textarea {
+    width: 35%;
+    padding: 10px;
+    margin: 10px;
+    border: 0 solid #2b4a64;
+    background-color: #2b4a64;
+}
+
+#contact .contact-form > input:focus {
+    background-color: #426684;
+}
+
+#contact .contact-form > input[type="submit"] {
+
+    width: auto;
+    float: left;
+    padding: 10px 30px;
+    border: 1px solid #1ac055;
+    background-color: #1ac056;
+    color: #fff;
+    font-size: 500;
+    position: absolute;
+    top: 100%;
+    left: 81%;
+}
+
+#contact .contact-form > input[type="submit"]:hover {
+    background-color: #fff;
+    color: #1ac056;
+}
+
+/* contact -end*/
+
+/* start -end*/
+
+footer > p {
+    background-color: #142634;
+    padding: 0 40px;
+    margin: 0;
+
+
+}
+
+footer > p > span {
+    color: #1ac056;
+
+}
+
+/* footer -end*/
