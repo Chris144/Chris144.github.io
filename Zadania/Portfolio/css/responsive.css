@@ -1,55 +1,54 @@
-@media all and (max-width:1200px) {
-    .portfolio-item {
-        width: 50%;
-
-    }
-    .portfolio-item:last-child {
-        width: 100%;
-    }
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
 }
 
-@media all and (max-width:992px) {
-    .main-header-content {
-        padding: 10%;
-    }
-    #about > figure {
-        width: :100%;
-    }
-    #about > figure > img {
-        max-height: inherit;
-    }
-    #about > article {
-        width: 100%;
-    }
-    .portfolio-item {
-        width: 100%;
-    }
-    .contact-data {
-        width: 100%;
-        text-align: center;
-    }
-    .contact-form {
-        width: 100%;
-    }
-    .contact-social-icons > a {
-        margin: 0;
-    }
+@media screen and (min-width:1170px)
+{
+    
+    
+}
+    
+    
+    
+@media screen and (min-width:992px) and (max-width:1169px)
+    
+{
+     
+     
+}
+    
+    
+@media screen and (max-width:991px)
+{
+    
+    
 }
 
-@media all and (max-width:768px) {
-    section {
-        padding: 0 40px 50px;
+@media all and (max-width : 576px) {
+    nav#main-nav{
+        text-align: left;
+        }
+    #contact .contact-social-icons{
+        display: inline;
+       
     }
-    #main-heaer > h1 {
-        font: 3em;
+    #about > figure > img{
+        height:120px;
+        width:120px;
+        position: relative;
     }
-    #main-heaer > h2 {
-        font: 1.5em;
+    #about > article{
+       position: absolute;
+       left:60%;
+       font-size: 1em;
     }
-}
+    #skills > figure >img
+    {
+        padding: 0;
+        margin:0;
+    }
 
-@media all and (max-width:576px) {
-    section {
-        padding: 0 10px 30px;
-    }
 }
