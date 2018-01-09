@@ -32,6 +32,7 @@ nav#main-nav > ul > li {
 
 }
 
+
 nav#main-nav > ul > li > a {
     text-decoration: none;
     margin: 0;
@@ -40,7 +41,7 @@ nav#main-nav > ul > li > a {
 }
 
 nav#main-nav > ul > li > a:hover {
-    color: #1ac056;
+    color: black;
 }
 
 /*Navigation -end*/
