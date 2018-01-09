@@ -6,6 +6,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Lato", sans-serif;
+    overflow-x: hidden;
 
 }
 
@@ -34,13 +35,12 @@ nav#main-nav > ul > li {
 nav#main-nav > ul > li > a {
     text-decoration: none;
     margin: 0;
-    color: white;
+    color: #000;
 
 }
 
 nav#main-nav > ul > li > a:hover {
-    color: #291f1a;
-
+    color: #1ac056;
 }
 
 /*Navigation -end*/
@@ -94,13 +94,17 @@ nav#main-nav > ul > li > a:hover {
 
 #about > figure > img {
     max-width: 350px;
+    position: relative;
 
 }
 
 #about > article {
     width: 50%;
     text-align: left;
-    float: left;
+    float:left;
+   
+  ;
+   
 }
 
 #about > h2 > span {
