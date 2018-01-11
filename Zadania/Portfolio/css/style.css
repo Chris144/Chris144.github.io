@@ -26,6 +26,13 @@ nav#main-nav {
 
 /*Navigation -start*/
 
+.toggle{
+    display: none;
+}
+#drop{
+    display: none;
+}
+
 nav#main-nav > ul > li {
     display: inline-block;
     padding: 20px 40px;
