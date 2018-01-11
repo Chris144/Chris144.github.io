@@ -144,6 +144,9 @@ nav#main-nav > ul > li > a:hover {
 /* skills - end */
 
 /*moje portfolio-start*/
+#portfolio{
+    margin:50px;
+}
 
 #portfolio h2 {
     text-align: center;
@@ -318,7 +321,7 @@ item-content-inner > a {
     color: #fff;
     font-size: 500;
     position: absolute;
-    top: 100%;
+    top: 95%;
     left: 81%;
 }
 

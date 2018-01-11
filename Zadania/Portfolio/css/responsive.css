@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+@media all and (max-width : 1200px){
+
+    @media all and (max-width : 992px){
+ 
+    
+ @media all and (max-width : 768px){
+    
+   
+ @media all and (max-width : 576px){
+     nav#main-nav {
+        display: none;
+                 }
+     }
+     
+     * {
+         padding: 0 10px 30px;
+     }
+     
+     #main-header .main-header-content > h1{
+         display: flex;
+         justify-content: center;
+         
+     }
+     #main-header .main-header-content > h2{
+         display: flex;
+         justify-content: center;
+     }
+      #about {
+        position:relative;
+        display:flex;
+        justify-content:center;
+
+         
+         
+     }
+          #about >article{
+            position: absolute;
+            left:10px;
+            top:50px;
+
+        }
+        #about>figure>img{
+          
+            top:50px;
+        }
+
+  
+       
+  
+  
