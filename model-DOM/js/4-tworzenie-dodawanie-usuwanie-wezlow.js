@@ -22,7 +22,7 @@ var istniejacyWezel = document.getElementById("parFirst").children[2];
 
 var wszystkieLinki = document.querrySelectorAll("a");
 
-for ( var i=0; i<wszystkieLinki.length; i++);{
+for ( var i=0; i<wszystkieLinki.length; i++){
     var br = document.createElement("br");
     wszystkieLinki[i].parentElement.insertBefore(br, wszystkieLinki[i].nextSibling);
      wszystkieLinki[i].removeAttribute("class");
