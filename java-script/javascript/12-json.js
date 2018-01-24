@@ -35,7 +35,7 @@ var jsonOsoby = {
 
          }
      ]
-}
+};
 
 
 jsonOsoby.osoby.forEach(function(e){
@@ -45,3 +45,4 @@ jsonOsoby.osoby.forEach(function(e){
     console.log(e.wzrost);
 })
 });
+name
