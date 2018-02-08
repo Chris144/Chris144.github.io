@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DroidSerif", sans-serif;
+  color: black; }
+  body header#header {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/header/office-972624_960_720.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center; }
+    body header#header #header-main h1 span {
+      color: #0DBA0D; }
+  body section#aboutme {
+    margin-top: 50px; }
+    body section#aboutme header h1 span {
+      color: #0DBA0D; }
+    body section#aboutme p {
+      font-family: "Montserrat", sans-serif; }
+    body section#aboutme .aboutme-icons {
+      background-color: #0ed8d6;
+      width: 100px;
+      height: 100px;
+      border-radius: 100%;
+      margin: 40px auto 0;
+      position: relative;
+      color: white; }
+      body section#aboutme .aboutme-icons:hover {
+        transform: rotate(360deg);
+        transition: ease-in-out 0.6s;
+        color: black;
+        background-color: #0DBA0D; }
+      body section#aboutme .aboutme-icons .fa {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        transform: translateY(-50%); }
+  body section#skills {
+    background-color: #E8D4D4; }
+    body section#skills header.skills-header {
+      margin-top: 50px; }
+      body section#skills header.skills-header h1 span {
+        color: #0DBA0D; }
+      body section#skills header.skills-header p {
+        font-family: "Montserrat", sans-serif; }
+    body section#skills img:hover {
+      background-color: #0ed8d6; }
+  body section#portfolio {
+    padding: 20px; }
+    body section#portfolio header h1 span {
+      color: #0DBA0D; }
+    body section#portfolio figure.picture {
+      margin: 20px 5px; }
+      body section#portfolio figure.picture .picture-style {
+        height: 350px;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        position: relative; }
+        body section#portfolio figure.picture .picture-style:hover {
+          opacity: 0.5;
+          border-radius: 10%;
+          transform: scale(1.1);
+          transition: ease-in-out 0.8s; }
+        body section#portfolio figure.picture .picture-style .picture-mask .fa {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          left: 0;
+          right: 0;
+          color: white; }
+      body section#portfolio figure.picture .picture-background-1 {
+        background-image: url("../img/portfolio/box_of_cookies.jpg"); }
+      body section#portfolio figure.picture .picture-background-2 {
+        background-image: url("../img/portfolio/chaotic_paint.jpg"); }
+      body section#portfolio figure.picture .picture-background-3 {
+        background-image: url("../img/portfolio/chestnut_on_bracket.jpg"); }
+      body section#portfolio figure.picture .picture-background-4 {
+        background-image: url("../img/portfolio/child_with_blue_paint.jpg"); }
+      body section#portfolio figure.picture .picture-background-5 {
+        background-image: url("../img/portfolio/house_with_blue_doors.jpg"); }
+      body section#portfolio figure.picture .picture-background-6 {
+        background-image: url("../img/portfolio/typing_on_laptop.jpg"); }
+  body section#contact {
+    background-image: url("../img/footer/world-map.jpg");
+    height: 450px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: #0DBA0D;
+    padding: 40px; }
+    body section#contact .section-header h1::first-letter {
+      color: black; }
+    body section#contact .contact-form-column {
+      height: 220px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; }
+      body section#contact .contact-form-column input, body section#contact .contact-form-column textarea {
+        text-transform: uppercase;
+        padding: 15px;
+        font-family: "Montserrat", sans-serif;
+        border-radius: 5px;
+        background-color: #E8D4D4; }
+      body section#contact .contact-form-column input:not([type='submit']), body section#contact .contact-form-column textarea {
+        border: 0 solid; }
+      body section#contact .contact-form-column textarea {
+        height: 100%; }
+      body section#contact .contact-form-column input[type='submit'] {
+        background-color: #83B9Eb;
+        border: 1px solid #0ed8d6;
+        color: black;
+        margin-top: 30px;
+        cursor: pointer; }
+        body section#contact .contact-form-column input[type='submit']:hover {
+          background-color: white;
+          border: 1px solid #0ed8d6;
+          color: #0ed8d6; }
+  body footer#main-footer {
+    background-color: darkslategrey;
+    text-align: center;
+    padding-top: 10px;
+    font-family: "Montserrat", sans-serif; }
+    body footer#main-footer p span {
+      color: #0DBA0D; }
+    body footer#main-footer i {
+      color: white;
+      cursor: pointer; }
+      body footer#main-footer i:hover {
+        color: blue; }
+    body footer#main-footer a {
+      color: black;
+      text-decoration: none; }
+      body footer#main-footer a:hover {
+        color: blue; }
+
+#contact input[type='submit'] {
+	background-color: deepskyblue;
+	border: 1px solid #0ed8d6;
+	color: #fff;
+	margin-top: 30px;
+	cursor: pointer;}
+#contact input[type='submit']:hover {
+	background-color: #fff;
+	border: 1px solid #0ed8d6;
+	color: #0ed8d6;
+    
+}
+
