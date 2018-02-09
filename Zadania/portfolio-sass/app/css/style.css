@@ -37,10 +37,14 @@ body {
         background-color: #0DBA0D; }
       body section#aboutme .aboutme-icons .fa {
         position: absolute;
+        transform: translateY(-50%);
         top: 50%;
-        left: 0;
         right: 0;
-        transform: translateY(-50%); }
+        left: 0;
+        margin: 0 auto;
+        text-align: center; }
+    body section#aboutme h2 span {
+      color: #0DBA0D; }
   body section#skills {
     background-color: #E8D4D4; }
     body section#skills header.skills-header {
@@ -70,10 +74,12 @@ body {
           transition: ease-in-out 0.8s; }
         body section#portfolio figure.picture .picture-style .picture-mask .fa {
           position: absolute;
-          top: 50%;
           transform: translateY(-50%);
-          left: 0;
+          top: 50%;
           right: 0;
+          left: 0;
+          margin: 0 auto;
+          text-align: center;
           color: white; }
       body section#portfolio figure.picture .picture-background-1 {
         background-image: url("../img/portfolio/box_of_cookies.jpg"); }
@@ -113,16 +119,19 @@ body {
         border: 0 solid; }
       body section#contact .contact-form-column textarea {
         height: 100%; }
-      body section#contact .contact-form-column input[type='submit'] {
-        background-color: #83B9Eb;
+    body section#contact input[type='submit'] {
+      background-color: #0ed8d6;
+      border: 1px solid #0ed8d6;
+      color: white;
+      transition: all .3s;
+      margin-top: 30px;
+      cursor: pointer;
+      height: 40px;
+      border-radius: 5px; }
+      body section#contact input[type='submit']:hover {
+        background-color: white;
         border: 1px solid #0ed8d6;
-        color: black;
-        margin-top: 30px;
-        cursor: pointer; }
-        body section#contact .contact-form-column input[type='submit']:hover {
-          background-color: white;
-          border: 1px solid #0ed8d6;
-          color: #0ed8d6; }
+        color: #0ed8d6; }
   body footer#main-footer {
     background-color: darkslategrey;
     text-align: center;
@@ -140,17 +149,3 @@ body {
       text-decoration: none; }
       body footer#main-footer a:hover {
         color: blue; }
-
-#contact input[type='submit'] {
-	background-color: deepskyblue;
-	border: 1px solid #0ed8d6;
-	color: #fff;
-	margin-top: 30px;
-	cursor: pointer;}
-#contact input[type='submit']:hover {
-	background-color: #fff;
-	border: 1px solid #0ed8d6;
-	color: #0ed8d6;
-    
-}
-

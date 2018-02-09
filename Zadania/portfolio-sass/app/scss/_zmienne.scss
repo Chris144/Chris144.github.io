@@ -15,4 +15,5 @@ $bg-color2:#0ed8d6;
 $bg-color3:#E8D4D4;
 
 
+@mixin absolute-center {  position: absolute;  transform: translateY(-50%);  top: 50%;  right: 0;  left: 0;  margin: 0 auto;  text-align: center; } 
 
